@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "description": "Default Welcome Intent",
+      "name": "MAIN",
+      "fulfillment": {
+        "conversationName": "Google Home Avaamo Integration"
+      },
+      "intent": {
+        "name": "actions.intent.MAIN",
+        "trigger": {
+          "queryPatterns": [
+            "talk to disha"
+          ]
+        }
+      }
+    }
+  ],
+  "conversations": {
+    "Google Home Avaamo Integration": {
+      "name": "Google Home Avaamo Integration",
+      "url": "https://e0f72b20.ngrok.io/fulfillment"
+    }
+  },
+  "locale": "en"
+}
