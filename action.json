@@ -19,7 +19,7 @@
   "conversations": {
     "Google Home Avaamo Integration": {
       "name": "Google Home Avaamo Integration",
-      "url": "https://e0f72b20.ngrok.io/fulfillment"
+      "url": "http://ec2-13-127-99-9.ap-south-1.compute.amazonaws.com:8000/fulfillment"
     }
   },
   "locale": "en"
